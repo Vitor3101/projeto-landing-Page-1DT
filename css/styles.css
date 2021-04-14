@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* font-family: 'Bebas Neue', cursive; */
+
+
+/* font-family: 'Open Sans', sans-serif; */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Início do Header */
+
+header {
+    background: #F9003D;
+    height: 60px;
+    width: 100%;
+    z-index: 99;
+    position: fixed;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.container_header {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.nav_header {
+    display: flex;
+    justify-content: space-between;
+    width: 590px;
+    height: 100%;
+    align-items: center;
+}
+
+.nav_header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+}
+
+
+/* Fim do Header */
+
+
+/* Início da main */
+
+.apoio_banner {
+    position: relative;
+    width: 100%;
+    height: 780px;
+}
+
+.img_banner {
+    width: 100%;
+}
+
+
+/* infos do Banner */
+
+.box_conteudo_banner {
+    position: absolute;
+    top: 226px;
+    left: 121px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    width: 545px;
+    color: white;
+    font-size: 96px;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+hr {
+    color: yellowgreen;
+}
+
+.box_conteudo_banner span {
+    color: #F9003D;
+    text-transform: uppercase;
+    font-size: 53px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.mouse {
+    width: 37px;
+}
+
+
+/* fim das infos do Banner */
+
+
+/* Início do Sobre */
+
+.apoio_da_section {
+    background-color: #080324;
+    height: 800px;
+}
+
+.container_conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.apoio_da_section h2 {
+    color: #F9003D;
+    font-size: 64px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+}
+
+.conteudo_sobre {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo_participantes {
+    color: #fff;
+}
+
+.conteudo_participantes span {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+.conteudo_participantes h3 {
+    color: #FFAF00;
+    font-size: 64px;
+    font-weight: 500;
+    font-family: 'Bebas Neue', cursive;
+    width: 557px;
+    margin: 10px 0;
+}
+
+.conteudo_participantes p {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    width: 592px;
+    line-height: 25px
+}
+
+
+/* Fim do Sobre */
+
+
+/* Início de Info Curso*/
+
+.infos {
+    background-image: url(../assets_/imagem-fundo-info.png);
+    color: #fff;
+}
+
+.container_infos {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 32px 0;
+}
+
+.infos h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 28px 0 5px 0;
+}
+
+.bloco {
+    border: 1px solid #A259F7;
+    width: 289px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infos span {
+    color: #A259F7;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+
+/* Fim de Infos Curso */
+
+
+/* Início de Endereço */
+
+.fundo_de_endereco {
+    background-image: url(../assets_/imagem-fundo-endereco.png);
+    height: 516px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.endereco_texto {
+    margin-top: 81.91px;
+}
+
+.fundo_de_endereco h2 {
+    color: #FFAF00;
+    font-size: 64px;
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.apoio_dos_enderecos {
+    border: 2px solid #A259F7;
+    background-color: #010010;
+    width: 899px;
+    height: 203px;
+    display: flex;
+}
+
+.apoio_dos_enderecos p {
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    color: #A259F7;
+    width: 435px;
+    margin: 57.43px 0 57.43px 66px;
+}
+
+.mapa {
+    position: absolute;
+    top: 95px;
+    right: 328px;
+}
+
+
+/* Fim de Endereços/*
+
+/* Footer */
+
+footer {
+    background-color: #F9003D;
+    height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer span {
+    color: #fff;
+    font size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
